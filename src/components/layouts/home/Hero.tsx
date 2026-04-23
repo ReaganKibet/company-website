@@ -47,7 +47,7 @@ export default function Hero() {
         </div>
 
         {/* Right content */}
-        <div className="flex-1 relative hidden lg:flex items-center pt-24 h-screen bg-black/5 dark:bg-transparent">
+        <div className="flex-1 relative hidden lg:flex items-center pt-24 h-screen bg-transparent">
           <SplineScene 
             scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
             className="w-full h-full"
