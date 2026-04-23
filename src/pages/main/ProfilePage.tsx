@@ -565,6 +565,10 @@ const ProfilePage = () => {
         {isViewingOwnProfile && (
           <div className="flex justify-between items-center">          
           {!isEditing ? (
+            <button
+              onClick={() => setIsEditing(true)}
+              className="flex items-center gap-2 bg-accent text-foreground px-3 py-1 rounded-3xl hover:bg-accent/80 transition-colors shadow-sm"
+            >
               <Edit size={16} /> Edit Profile
             </button>
           ) : (
@@ -949,8 +953,6 @@ const ProfilePage = () => {
                   </div>
                 )}
               </div>
-            )}
-          </div>
         </section>
       </div>
     </div>
